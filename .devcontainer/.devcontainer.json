@@ -1,0 +1,56 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.191.0/containers/ubuntu
+{
+	"name": "tlaplus",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+		    "VARIANT": "focal"
+		}
+	},
+	// arguments needed to enable ptrace debugging, e.g., for C++, in the container
+	"runArgs": [
+		"--cap-add=SYS_PTRACE",
+		"--security-opt",
+		"seccomp=unconfined"
+	],
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-vsliveshare.vsliveshare",
+		"lostintangent.vsls-whiteboard",
+		"ms-vscode-remote.remote-containers",
+		"yzhang.markdown-all-in-one",
+		"goessner.mdmath",
+		"davidanson.vscode-markdownlint",
+		"mathematic.vscode-pdf",
+		"eamodio.gitlens",
+		"stephanvs.dot",
+		"jroesch.lean",
+		"dafny-lang.ide-vscode",
+		"ms-vscode-remote.remote-ssh",
+		"ms-python.python",
+		"jithurjacob.nbpreviewer",
+		"KevinRose.vsc-python-indent",
+		"njpwerner.autodocstring",
+		"oderwat.indent-rainbow",
+		"GitHub.vscode-pull-request-github",
+		"ms-vsliveshare.vsliveshare-audio",
+		"ms-vsliveshare.vsliveshare-pack",
+		"ms-vscode.cpptools",
+		"ms-vscode.cpptools-extension-pack",
+		"alygin.vscode-tlaplus"
+	],
+
+	"forwardPorts": []
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "elan update && leanproject update && leanproject get-mathlib-cache"
+	// "postCreateCommand": "elan update && leanproject update && leanproject get-mathlib-cache"
+	// "postCreateCommand": "leanproject pull"
+	//
+	// TODO: Add vscode user creation to DOCKERFILE then uncomment
+	// "remoteUser": "vscode"
+}
