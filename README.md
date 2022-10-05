@@ -48,3 +48,10 @@
 
 - Report issues using the issues tab in *this* GitHub-hosted repo
 - I welcome pull requests
+
+## Contact
+
+Kevin Sullivan
+CS Faculty
+University of Virginia
+sullivan@virginia.edu
