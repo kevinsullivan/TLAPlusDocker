@@ -3,6 +3,7 @@
     "[tlaplus]": {
         "editor.codeActionsOnSave": {
             "source": true
-        }
+        },
+        "editor.fontLigatures": true
     }
 }
