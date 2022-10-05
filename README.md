@@ -30,7 +30,7 @@
 - Right click in file area. Select Source Action then Parse Module. All should be well.
 - Change the name of the color variable to colour. Save the file. Parse Module again. There should be an error.
 - Fix the error by undoing the change in spelling. Save. Parse Module. All should be well again.
-- Good, everything works. Now start the video and follow along, emptying the test.tla file then following the video. 
+- Now start the video and follow along, emptying test.tla to follow along from the start of its development. 
 - If you want to flag issues or suggest or contribute improvements, please use GitHub issues and send PRs. 
 
 ## Nice features (as you will see in the video)
