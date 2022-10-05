@@ -64,10 +64,3 @@ RUN apt-get install -y --no-install-recommends texlive-latex-recommended
 ## Install TLA+ Toolbox
 RUN wget https://github.com/tlaplus/tlaplus/releases/download/v1.8.0/TLAToolbox-1.8.0.deb -P /tmp
 RUN dpkg -i /tmp/TLAToolbox-1.8.0.deb
-
-## $(pwd)/ because VSCode apparantly doesn't like relative paths.
-#code --force --install-extension $(pwd)/.devcontainer/extensions/better-comments-2.0.5.vsix
-#code --force --install-extension $(pwd)/.devcontainer/extensions/EFanZh.graphviz-preview-1.5.0.vsix
-
-## Open the readme.md file in the editor.
-# code README.md
