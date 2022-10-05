@@ -1,11 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.0/containers/ubuntu
 {
-	"name": "tlaplus",
+	"name": "tlaplusvm",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
-		    "VARIANT": "focal"
+			"VARIANT": "focal"
 		}
 	},
 	// arguments needed to enable ptrace debugging, e.g., for C++, in the container
@@ -14,10 +14,8 @@
 		"--security-opt",
 		"seccomp=unconfined"
 	],
-
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
-
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-vsliveshare.vsliveshare",
@@ -42,9 +40,8 @@
 		"ms-vsliveshare.vsliveshare-pack",
 		"ms-vscode.cpptools",
 		"ms-vscode.cpptools-extension-pack",
-		"alygin.vscode-tlaplus"
+		"alygin.vscode-tlaplus-nightly"
 	],
-
 	"forwardPorts": []
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "elan update && leanproject update && leanproject get-mathlib-cache"
