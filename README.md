@@ -1,18 +1,18 @@
-# TLA+ Development Containter for VSCode
+# VSCode Dev Containter for TLA+  
 
-## Build
+## How to use
 
-- Fork this repository
-- Run VSCode
+- Fork this repository (don't skip this step)
+- Open a new VSCode editor process
 - Install the remote containers extension if it's not already installed
-- Use remote-containers command to clone your fork in container
-- You can click in the lower right to see the container build
+- Use the remote-containers "Clone into container" to clone *your fork* into a new container
+- Click in the lower right if you want to see the container build. It takes 5-10 minutes.
+- Open the test/test.tla file. Select Source Action, then Parse Module.
 
-## To test it out
+## Nice features
+- pretty print specifications in LaTeX
+- generate and view dot/graphviz visualizations
 
-- Open the test.tla file
-- Right click in the file window, select Source Action, then Parse Module
+## To auto-parse on file save
 
-## Issues
-
-- To enable automatic parsing of .tla files when saved, follow the instructions here: [https://github.com/tlaplus/vscode-tlaplus/wiki/Automatic-Module-Parsing] to configure your VSCode environment.
+- Follow these instructions: https://github.com/tlaplus/vscode-tlaplus/wiki/Automatic-Module-Parsing to configure your VSCode environment.
