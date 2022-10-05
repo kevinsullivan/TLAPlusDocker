@@ -4,6 +4,8 @@ VARIABLE color
 
 TypeOk == color \in {"red","green","yellow"}
 
+AlwaysTypeOk == [] TypeOk
+
 Init == color = "red"
 
 TurnGreen == 
@@ -21,5 +23,7 @@ TurnRed ==
 Next == \/ TurnGreen 
         \/ TurnYellow 
         \/ TurnRed
+
+Spec == Init /\ [][Next]_color
 
 ====

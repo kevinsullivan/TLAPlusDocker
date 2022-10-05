@@ -12,4 +12,3 @@ Clone repository and open in container. Wait for it to build.
 ## Issues
 
 - Saving .tla files doesn't re-run parser automatically, tell me how
-- 

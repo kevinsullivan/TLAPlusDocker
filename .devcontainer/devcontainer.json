@@ -40,7 +40,10 @@
 		"ms-vsliveshare.vsliveshare-pack",
 		"ms-vscode.cpptools",
 		"ms-vscode.cpptools-extension-pack",
-		"alygin.vscode-tlaplus-nightly"
+		"alygin.vscode-tlaplus-nightly",
+		"tintinweb.graphviz-interactive-preview",
+		"joaompinto.vscode-graphviz",
+		"aaron-bond.better-comments"
 	],
 	"forwardPorts": []
 	// Use 'postCreateCommand' to run commands after the container is created.
