@@ -46,4 +46,4 @@
 ## Regarding bugs and suggested repairs
 
 - Report issues using the issues tab in *this* GitHub-hosted repo
-- Develop and test repairs/improvements then please send pull requests
+- I welcome pull requests
