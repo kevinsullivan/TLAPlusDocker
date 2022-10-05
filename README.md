@@ -3,7 +3,7 @@
 ## What this is
 
 - A TLA+ development environment through VSCode, Docker, and Dev Containers
-- Good enough for this Gentle Introduction to TLA+: [https://www.youtube.com/watch?v=D_sh1nnX3zY]. 
+- Good enough for this Gentle Introduction to TLA+ (not mine): [https://www.youtube.com/watch?v=D_sh1nnX3zY]. 
 - TLA+ environment based on this installer [https://github.com/lemmy/ewd998/blob/main/.devcontainer/install.sh]
 - Installed and running in a generic, official Ubuntu 22.04 container
 - Tested on Windows and Intel Mac host machines.
