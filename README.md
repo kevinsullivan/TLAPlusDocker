@@ -3,10 +3,10 @@
 ## What this is
 
 - Provides a nice TLA+ development environment through VSCode, Docker, and Dev Containers
-  - Good enough to run with this Gentle Introduction to TLA+: [https://www.youtube.com/watch?v=D_sh1nnX3zY]
-  - TLA+ setup details based on [https://github.com/lemmy/ewd998/blob/main/.devcontainer/install.sh]
-  - Based on an Ubuntu 22.04 image
-  - If you want to enable auto-parse-on-tla-file-save, you can, per instructions that follow below
+- Good enough to run through this Gentle Introduction to TLA+: [https://www.youtube.com/watch?v=D_sh1nnX3zY]
+- TLA+ setup based on this installer [https://github.com/lemmy/ewd998/blob/main/.devcontainer/install.sh]
+- If you want to enable auto-parse-on-tla-file-save, you can, per instructions that follow below
+- Installed and running on a generic Ubuntu 22.04 image
 
 ## Dependencies
 
