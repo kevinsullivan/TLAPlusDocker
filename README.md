@@ -24,8 +24,8 @@
 
 ## How to start using it
 
-- Open the test/test.tla file in VSCode and the Gentle Introduction video linked above.
-- The files you have are as *at the end* of the video tutorial.
+- Open the test/test.tla file in VSCode.
+- The files you have to start are as *at the end* of the video tutorial.
 - Right click in file area. Select Source Action then Parse Module. All should be well.
 - Change the name of the color variable to colour. Save the file. There should be an error.
 - Fix the error by undoing the change in spelling. Save. All should be well again.
