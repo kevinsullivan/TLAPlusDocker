@@ -20,14 +20,15 @@
 - Launch a new VSCode window
 - Install the remote containers extension if it's not already installed
 - Use the remote-containers "Clone into container" command to clone *your fork* into our container
-- Click in the lower right if you want to see the container build. It takes 5-10 minutes.
+- Click in the lower right if you want to see the container build, which takes maybe 5-10 minutes.
 - Open the test/test.tla file. Right click in file area. Select Source Action then Parse Module.
-- Develop as you wish and use your own repo for version control
+- Develop as you wish, using your own repo for version control.
+- If you want to flag issues or suggest or contribute improvements, please use GitHub issues and send PRs. 
 
 ## Nice features
 
-- pretty print specifications in LaTeX
-- generate and view dot/graphviz visualizations
+- format and preview specifications in LaTeX
+- generate and preview dot/graphviz state machine visualizations
 - See the .devcontainer/Dockerfile for what's being set up
 - tested on Windows and Intel Mac (please let me know if you test on Linux or Apple Silicon)
 
