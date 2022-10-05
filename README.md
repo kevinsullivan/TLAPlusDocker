@@ -8,7 +8,7 @@
 - Install the remote containers extension if it's not already installed
 - Use the remote-containers "Clone into container" command to clone *your fork* into a new container
 - Click in the lower right if you want to see the container build. It takes 5-10 minutes.
-- Open the test/test.tla file. Select Source Action, then Parse Module.
+- Open the test/test.tla file. Right click in file area. Select Source Action then Parse Module.
 - Develop as you wish and use your own repo for version control
 
 ## Nice features
