@@ -18,8 +18,7 @@
 
 ## How to get it
 
-- Launch a new VSCode window
-- Install the remote containers extension if it's not already installed
+- In VSCode, install the remote development extension if it's not already installed
 - Use the remote-containers "Clone into container" command to clone *your fork* into our container
 - Click in the lower right if you want to see the container build, which takes maybe 5-10 minutes.
 
