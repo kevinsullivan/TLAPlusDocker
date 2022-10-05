@@ -26,7 +26,6 @@
 
 - Open the test/test.tla file in VSCode.
 - The files you have to start are as *at the end* of the video tutorial.
-- Right click in file area. Select Source Action then Parse Module. All should be well.
 - Change the name of the color variable to colour. Save the file. There should be an error.
 - Fix the error by undoing the change in spelling. Save. All should be well again.
 - Now start the video and follow along, emptying test.tla to synch it with the start of the video.
