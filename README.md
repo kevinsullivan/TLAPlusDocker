@@ -51,6 +51,6 @@
 ## Contact
 
 Kevin Sullivan
-CS Faculty
+Department of Comp. Sci.
 University of Virginia
 sullivan@virginia.edu
