@@ -31,6 +31,10 @@
 - Now start the video and follow along, emptying test.tla to synch it with the start of the video.
 - If you want to flag issues or suggest or contribute improvements, please use GitHub issues and send PRs.
 
+## A Video installation walk-through
+
+Thank you to Ben for producing this video: https://www.youtube.com/watch?v=sLGY7_agg4E
+
 ## Nice features (as you will see in the video)
 
 - format and preview specifications in LaTeX
