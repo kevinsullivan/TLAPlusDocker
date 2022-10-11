@@ -1,7 +1,7 @@
 # VSCode Dev Containter for TLA+  
 
-By Kevin Sullivan
-University of Virginia Department of Computer Science
+By Kevin Sullivan.
+University of Virginia Department of Computer Science.
 Building with gratitude on work by many others, esp LL.
 
 ## What this is
